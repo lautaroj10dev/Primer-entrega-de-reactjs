@@ -1,0 +1,16 @@
+.nav-container {
+  background-color: #587e4d;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.carrito {
+  width: 3rem;
+}
