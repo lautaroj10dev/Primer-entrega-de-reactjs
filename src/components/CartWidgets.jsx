@@ -4,7 +4,7 @@ const CartWidgets = () => {
         <div>
 
             <img src="/cdc.png" alt="Carrito" className="carrito"/>
-            <span style={{ color: "blue", fontWeight: "bold" }}>3</span>
+            <span style={{ color: "brown", fontWeight: "bold" }}>6</span>
 
         </div>
 

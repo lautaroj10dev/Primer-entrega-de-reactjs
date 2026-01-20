@@ -1,5 +1,5 @@
 .nav-container {
-  background-color: #587e4d;
+background-color: #79ad6a;
   padding: 2rem;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -13,4 +13,5 @@
 
 .carrito {
   width: 3rem;
+  cursor: pointer;
 }

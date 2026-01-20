@@ -1,8 +1,12 @@
-const ItemListContainer = ({bienvenida}) => {
+
+const ItemListContainer = ({ title }) => {
+
     return (
-        <div>
-            <h1>{bienvenida}</h1>
-        </div>
-    )
+        <section className="item-list-container">
+            <h2>{title}</h2>
+            {/* Aquí se renderizarán los ítems del catálogo */}
+            <p>Próximamente verás nuestro catálogo.</p>
+        </section>
+    );
 }
 export default ItemListContainer
