@@ -5,7 +5,7 @@ const productos = [
     precio: 1200,
     categoria: "Bebidas",
     descripcion: "Café espresso doble, intenso y aromático",
-    imagen: ""
+    imagen: "../public/cafeexpresso.jpg"
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const productos = [
     precio: 1600,
     categoria: "Bebidas",
     descripcion: "Jugo natural de naranja recién exprimido",
-    imagen: ""
+    imagen: "../public/eprimidodenaranja.jpg"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const productos = [
     precio: 1900,
     categoria: "Bebidas",
     descripcion: "Café con leche espumada y cacao en polvo",
-    imagen: ""
+    imagen: "../public/capuccino.jpg"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const productos = [
     precio: 1500,
     categoria: "Bebidas",
     descripcion: "Té caliente variedad a elegir",
-    imagen: ""
+    imagen: "../public/té.jpg"
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const productos = [
     precio: 1400,
     categoria: "Bebidas",
     descripcion: "Chocolate caliente",
-    imagen: ""
+    imagen: "../public/submarino.jpg"
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const productos = [
     precio: 1000,
     categoria: "Desayunos",
     descripcion: "Medialunas frescas rellenas de jamón y queso",
-    imagen: ""
+    imagen: "../public/medialunasdejyq.jpg"
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const productos = [
     precio: 2300,
     categoria: "Desayunos",
     descripcion: "Huevos revueltos acompañados de tostadas crujientes",
-    imagen: ""
+    imagen: "../public/huevoscontostadas.jpg"
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const productos = [
     precio: 3200,
     categoria: "Desayunos",
     descripcion: "Waffles esponjosos con frutillas, arándanos y miel",
-    imagen: ""
+    imagen: "../public/wafflesconfrutosrojos.jpg"
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const productos = [
     precio: 1500,
     categoria: "Desayunos",
     descripcion: "Tostadas caseras con mermelada o manteca",
-    imagen: ""
+    imagen: "../public/tostadas.jpg"
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const productos = [
     precio: 4200,
     categoria: "Almuerzos",
     descripcion: "Ensalada fresca con pechuga de pollo a la plancha",
-    imagen: ""
+    imagen: "../public/ensaladaypollo.jpg"
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const productos = [
     precio: 6500,
     categoria: "Almuerzos",
     descripcion: "Puré cremoso de calabaza y batata con carne estofada",
-    imagen: ""
+    imagen: "../public/pureconcarne.jpg"
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const productos = [
     precio: 2800,
     categoria: "Almuerzos",
     descripcion: "Sándwich de miga",
-    imagen: ""
+    imagen: "../public/unosdemiga.jpg"
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ const productos = [
     precio: 5200,
     categoria: "Almuerzos",
     descripcion: "Bife de chorizo jugoso con puré casero",
-    imagen: ""
+    imagen: "../public/bifeconpure.jpg"
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ const productos = [
     precio: 2800,
     categoria: "Meriendas",
     descripcion: "Tiramisú italiano clásico con mascarpone y café",
-    imagen: ""
+    imagen: "../public/tiramisu.jpg"
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const productos = [
     precio: 3000,
     categoria: "Meriendas",
     descripcion: "Torta de chocolinas con queso cream y dulce de leche",
-    imagen: ""
+    imagen: "../public/chocotorta.jpg"
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const productos = [
     precio: 3500,
     categoria: "Meriendas",
     descripcion: "Torta Matilda con almendras y cobertura de chocolate",
-    imagen: ""
+    imagen: "../public/tortamatilda.jpg"
   }
 ];
 

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../assets/css/NavBar.css';
 import { useState, useEffect } from 'react';
-import { FiShoppingCart } from 'react-icons/fi'; // Importa el ícono
+import { FiShoppingCart } from 'react-icons/fi';
 
 const NavBar = () => {
   const [cantidad, setCantidad] = useState(0);

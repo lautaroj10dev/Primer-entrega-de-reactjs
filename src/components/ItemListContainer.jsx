@@ -21,9 +21,11 @@ const ItemListContainer = ({titulo}) => {
         });
     }, [categoryId]);
 
+    const titulo_final = categoryId || titulo;
+
 return (
     <section className="item-list-container">
-        <h2>{titulo}</h2>
+        <h2>{titulo_final}</h2>
         {loading ? (
             <p> Cargando productos...</p>
         ) : ( 

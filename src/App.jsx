@@ -13,10 +13,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<ItemListContainer titulo='Bienvenidos a su nuevo hobbie' />} />
-        <Route path="/categoria/Bebidas" element={<ItemListContainer titulo='Bebidas' />} />
-        <Route path="/categoria/Desayunos" element={<ItemListContainer titulo='Desayunos' />} />
-        <Route path="/categoria/Almuerzos" element={<ItemListContainer titulo='Almuerzos' />} />
-        <Route path="/categoria/Meriendas" element={<ItemListContainer titulo='Meriendas' />} />
+        <Route path="/categoria/:categoryId" element={<ItemListContainer />} />
         <Route path="/producto/:id" element={<ItemDetailContainer />} />
         <Route path="/carrito" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
