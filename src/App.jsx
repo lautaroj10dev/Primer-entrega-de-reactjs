@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import Cart from "./components/Cart";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/categoria/Meriendas" element={<ItemListContainer titulo='Meriendas' />} />
         <Route path="/producto/:id" element={<ItemDetailContainer />} />
         <Route path="/carrito" element={<Cart />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
