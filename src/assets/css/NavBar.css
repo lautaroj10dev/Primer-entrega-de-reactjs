@@ -1,0 +1,47 @@
+.nav-container {
+background-color: #79ad6a;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.carrito-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.carrito-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #684236;
+  transition: color 0.3s ease;
+}
+
+.carrito-link:hover .carrito-icon {
+  color: #5a372f;
+}
+
+.carrito-cantidad {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #d9534f;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
