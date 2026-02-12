@@ -28,7 +28,7 @@ const Cart = () => {
         setCarrito(carritoActualizado);
         localStorage.setItem('carrito', JSON.stringify(carritoActualizado));
         actualizarTotal(carritoActualizado);
-        window.dispatchEvent(new Event('carritoActualizado')); // 👈 AGREGA AQUÍ
+        window.dispatchEvent(new Event('carritoActualizado'));
     };
 
     const handleDisminuir = (id) => {
@@ -43,7 +43,7 @@ const Cart = () => {
         setCarrito(carritoActualizado);
         localStorage.setItem('carrito', JSON.stringify(carritoActualizado));
         actualizarTotal(carritoActualizado);
-        window.dispatchEvent(new Event('carritoActualizado')); // 👈 AGREGA AQUÍ
+        window.dispatchEvent(new Event('carritoActualizado')); 
     };
 
     const handleEliminar = (id) => {
@@ -51,7 +51,7 @@ const Cart = () => {
         setCarrito(carritoActualizado);
         localStorage.setItem('carrito', JSON.stringify(carritoActualizado));
         actualizarTotal(carritoActualizado);
-        window.dispatchEvent(new Event('carritoActualizado')); // 👈 AGREGA AQUÍ
+        window.dispatchEvent(new Event('carritoActualizado')); 
     };
 
     const actualizarTotal = (carritoActualizado) => {
